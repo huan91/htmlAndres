@@ -1,7 +1,8 @@
 <!DOCTYPE html> <!--especifica version de html-->
-<html> <!--especifica que es un html-->
+<html lang="en-US"> <!--especifica que es un html y el atributo lang declara un idioma -->
   <head> <!--especifica la cabecera-->
      <title> practica proyecto</title>
+     <link rel="stylesheet" href="style.css">
   </head>  
     <body> <!--cuerpo del html-->
     <h1>primer titulo</h1>       
@@ -10,17 +11,19 @@
      <h4>cuarto titulo</h6>
      <h5>quinto titulo</h5>
      <h6>sexto titulo</h6>
-
+     <hr>
      <img src="http://www.definicionabc.com/wp-content/uploads/Im%C3%A1gen-Vectorial.jpg" alt="Smiley face"heigth="200"width="200"><!--inserta espacio-->
      <br>
      <img src="img/Koala.jpg" alt="japiro"heigth="200"width="200">
      <hr>
 
-     <p> hola &eacute;sto es un p&aacute;rrafo</p>   <!--parrafo-->
-
-     <a href="https://www.facebook.com/" target="_blank">visite facebook</a>
+     <p style="color: red;"> hola &eacute;sto es un p&aacute;rrafo</p>   <!--parrafo-->
+     <p title="mensaje al pasar encima del parrafo">probando el atributo title</p>
+     <a href="https://www.facebook.com/" target="_blank">visite facebook</a>      
+     
      <br>
      <a href="https://www.facebook.com/">visite facebook</a>
+     <hr>    
 
      <ol><!--lista ordenada-->
        <li>hugo </li>
@@ -32,13 +35,17 @@
        <li>alexis</li>
        <li>diego</li>       
      </ul>
-
+     <hr>     
+     
       <table> <!--tag para crear tabla-->
+      <thead>
         <tr><!--define una fila de la tabla-->
           <th>menu</th> <!--define un encabezado de la tabla-->
           <th>opcion</th>
           <th>sabor</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
           <td>caramelo</td> <!--define una celda de tabla-->
           <td>comer</td>
@@ -49,12 +56,16 @@
           <td>comer</td>
           <td>durazno</td> 
         </tr>
+        </tbody>
+        <tfoot>
         <tr>
           <td>gelatina</td>
           <td>comer</td>
           <td>morango</td> 
         </tr>
+        </tfoot>
       </table>
+     <hr>      
       <br>
       <br>
       <form >
