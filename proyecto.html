@@ -4,109 +4,118 @@
 <!--especifica que es un html y el atributo lang declara un idioma -->
 
 <head>
-  <!--especifica la cabecera-->
-  <title> practica proyecto</title>
-  <link rel="stylesheet" href="style.css">
+    <!--especifica la cabecera-->
+    <title> practica proyecto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+    
 </head>
 
 <body>
-  <!--cuerpo del html-->
-   <h1>primer titulo</h1>
-   <h2>segundo titulo</h2>
-   <h3>tercer titulos </h3>
-   <h4>cuarto titulo</h6>
-   <h5>quinto titulo</h5>
-   <h6>sexto titulo</h6>
-    <hr>
+    
+    <!--cuerpo del html-->
+    <h1>primer titulo</h1>
+    <h2>segundo titulo</h2>
+    <h3>tercer titulos </h3>
+    <h4>cuarto titulo</h6>
+        <h5>quinto titulo</h5>
+        <h6>sexto titulo</h6>
+        <hr>
 
-    <img src="http://www.definicionabc.com/wp-content/uploads/Im%C3%A1gen-Vectorial.jpg" alt="Smiley face" heigth="200" width="200">
-    <!--inserta espacio-->
-    <br>
-    <img src="img/Koala.jpg" alt="japiro" heigth="200" width="200">
-    <hr>
+        <img src="http://www.definicionabc.com/wp-content/uploads/Im%C3%A1gen-Vectorial.jpg" alt="Smiley face" heigth="200" width="200">
+        <!--inserta espacio-->
+        <br>
+        <img src="img/Koala.jpg" alt="japiro" heigth="200" width="200">
+        <hr>
 
-  <p style="color: red;"> hola &eacute;sto es un p&aacute;rrafo</p>
-  <!--parrafo-->
-  <p title="mensaje al pasar encima del parrafo">probando el atributo title</p>
+        <p style="color: red;"> hola &eacute;sto es un p&aacute;rrafo</p>
+<!--parrafo-->
+<p title="mensaje al pasar encima del parrafo">probando el atributo title</p>
 
-  <hr>
-  <a href="https://www.facebook.com/" target="_blank">visite facebook</a>
-  <br>
-  <a href="https://www.facebook.com/">visite facebook</a>
-  <hr>
+<hr>
+<a href="https://www.facebook.com/" target="_blank">visite facebook</a>
+<br>
+<a href="https://www.facebook.com/">visite facebook</a><br>
+<a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+<hr>
 
 <ol>
-  <!--lista ordenada-->
-  <li>hugo </li>
-  <li>alexis</li>
-  <li>diego</li>
+    <!--lista ordenada-->
+    <li>hugo </li>
+    <li>alexis</li>
+    <li>diego</li>
 </ol>
 
 <ul>
-  <!--lista ordenada-->
-  <li>hugo</li>
-  <li>alexis</li>
-  <li>diego</li>
+    <!--lista ordenada-->
+    <li id="hugo">hugo</li>
+    <li>alexis</li>
+    <li>diego</li>
 </ul>
 <hr>
 
 <!--Tabla-->
-    <table>
-        <thead>
-            <!--cabecera de la tabla-->
-            <tr>
-                <!--Salto de fila-->
-                <th>Mes</th>
-                <!--Cambio de columnas head-->
-                <th>Ahorro</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!--Cuerpo de la tabla-->
-            <tr>
-                <td>Enero</td>
-                <!--Cambio de columnas Body-->
-                <td>$100</td>
-            </tr>
-            <tr>
-                <td>Febrero</td>
-                <td>$80</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <!--Pie de la tabla-->
-            <tr>
-                <td>Total</td>
-                <td>$180</td>
-            </tr>
-        </tfoot>
-    </table>
+<table>
+    <thead>
+        <!--cabecera de la tabla-->
+        <tr>
+            <!--Salto de fila-->
+            <th>Mes</th>
+            <!--Cambio de columnas head-->
+            <th>Ahorro</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--Cuerpo de la tabla-->
+        <tr>
+            <td>Enero</td>
+            <!--Cambio de columnas Body-->
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>Febrero</td>
+            <td>$80</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <!--Pie de la tabla-->
+        <tr>
+            <td>Total</td>
+            <td>$180</td>
+        </tr>
+    </tfoot>
+</table>
 <hr>
 <br><br>
 
-<form action="action_page.php">  
-          <!--Acction va relacionado a submit-->
-        <!-- input text con placeholder-->
-<label>Nombre:</label> <input type="text" name="nombre" placeholder="andres">  <br>
-        <!-- input text con value-->
-  <label> pais</label>  <input type="text" name="pais" value="paraguay">  <br>
-          <!-- input text desactivado-->
-  <label>codigo de usuario</label><input type="code" value="0000x1" disabled><br>     
-     <!-- input password-->
-  <label>codigo</label><input type="password" name="pass" placeholder="password"><br>
-     <!-- input enviar-->  
-  <input type="submit" value="enviar">
-     <!-- input restablecer-->
-  <input type="reset" value="resetear">
+<form action="action_page.php">
+    <!--Acction va relacionado a submit-->
+    <!-- input text con placeholder-->
+    <label>Nombre:</label> <input type="text" name="nombre" placeholder="andres"> <br>
+    <!-- input text con value-->
+    <label> pais</label> <input type="text" name="pais" value="paraguay"> <br>
+    <!-- input text desactivado-->
+    <label>codigo de usuario</label><input type="code" value="0000x1" disabled><br>
+    <!-- input password-->
+    <label>codigo</label><input type="password" name="pass" placeholder="password"><br>
+    <!-- input enviar-->
+    <input type="submit" value="enviar">
+    <!-- input restablecer-->
+    <input type="reset" value="resetear">
 </form>
-<form ><!-- Form ejemplo radio-->
-  <input type="radio" name="gender" value="male" checked><label>male</label><br>
-  <input type="radio" name=" gender" value="female"><label>female</label><br>
-  <input type="radio" name="gender" value="other"><label>other</label><br>
-  <input type="checkbox" name="vehicle1" value="bike"><label>I have a bike</label><br>
-  <input type="checkbox" name="vehicle2" value="car"><label>I have a car </label><br>
-  <input type="button" onclick="alerta('hola mundo!')" value="click me">
+<form>
+    <!-- Form ejemplo radio-->
+    <input type="radio" name="gender" value="male" checked><label>male</label><br>
+    <input type="radio" name=" gender" value="female"><label>female</label><br>
+    <input type="radio" name="gender" value="other"><label>other</label><br>
+    <input type="checkbox" name="vehicle1" value="bike"><label>I have a bike</label><br>
+    <input type="checkbox" name="vehicle2" value="car"><label>I have a car </label><br>
+    <input type="button" onclick="alerta('hola mundo!')" value="click me">
 </form>
+<div id="div1">este es un div carajo este es un div carajo este es un div carajo este es un div carajo</div>
+<div id="div2">este es otro div</div>
+
+<p id="outline">parrafo probando outline kpe</p>
 </body>
 
 </html>
