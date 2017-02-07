@@ -44,3 +44,15 @@ h1{
     text-decoration:line-through;
 
 }
+a:link{
+color: red;
+}
+a:visited{
+    color: sandybrown;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color:blu;
+}
